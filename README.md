@@ -1,6 +1,7 @@
 # HashLips - Cardano
 
 [YouTube tutorial reference](https://youtu.be/LqqdV-WX1wo)
+[Rarity Worksheet](https://docs.google.com/spreadsheets/d/1TkPoRaPeSoDCq39tVed_WwTPz_TfEuf_Tiiux_H7Vak/edit?usp=sharing)
 
 This is a slightly tweaked version of HashLips that will spit out the metadata files in Cardano's 721 format. This will make it easier for you to bulk upload while using NFT Maker Pro.
 

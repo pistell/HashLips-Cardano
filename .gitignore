@@ -23,7 +23,7 @@ _.seed
 lib-cov
 
 # Coverage directory used by tools like istanbul
-
+.github
 coverage
 \*.lcov
 

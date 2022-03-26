@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NFT Maker Pro Payment Gateway Example</title>
+  <style>
+    .container {
+      width: 100%;
+    }
+    #nft-quantity {
+      padding: 0.5rem;
+      margin: 0.5rem;
+      font-weight: bold;
+      font-size: 1rem;
+    }
+    .chooseQuantity {
+      display: flex;
+      flex-direction: column;
+      flex-wrap: nowrap;
+      justify-content: center;
+      align-content: center;
+      align-items: center;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="chooseQuantity">
+      <label for="nft-quantity">Choose quantity</label>
+
+      <select name="quantity" id="nft-quantity">
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="10">10</option>
+        <option value="20">20</option>
+      </select>
+
+      <img src="https://pro.nft-maker.io/images/buttons/paybutton_1_1.svg" onclick="javascript:openPaymentWindow()">
+    </div>
+  </div>
+
+<script type="text/javascript">
+  function openPaymentWindow() {
+    // Please replace this URL with the one from your own project. You have been warned!!!
+    const paymentUrl = `https://payment.nft-maker.io/?p=9ce0376a700c4eaab95db6a872a1a903&c=${document.querySelector('#nft-quantity').value}`;
+    // Specify the popup width and height
+    const popupWidth = 500;
+    const popupHeight = 700;
+    // Calculate the center of the screen
+    const left = window.top.outerWidth / 2 + window.top.screenX - (popupWidth / 2);
+    const top = window.top.outerHeight / 2 + window.top.screenY - (popupHeight / 2);
+    const popup = window.open(paymentUrl, "NFT-MAKER PRO Payment Gateway", `popup=1, location=1, width=${popupWidth}, height=${popupHeight}, left=${left}, top=${top}`);
+    // Show dim background
+    document.body.style = "background: rgba(0, 0, 0, 0.5)";
+    // Continuously check whether the popup has been closed
+    const backgroundCheck = setInterval(function() {
+      if (popup.closed) {
+        clearInterval(backgroundCheck);
+        console.log("Popup closed");
+        // Remove dim background
+        document.body.style = "";
+      }
+    }, 1000);
+  }
+</script>
+</body>
+</html>

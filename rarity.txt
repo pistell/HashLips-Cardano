@@ -1,0 +1,266 @@
+
+> hashlips_art_engine@1.1.1 rarity
+> node utils/rarity.js
+
+Trait type: Backgrounds
+{
+  trait: 'Black',
+  weight: '15',
+  occurrence: '739 in 5000 editions (14.78 %)'
+}
+{
+  trait: 'Canary',
+  weight: '10',
+  occurrence: '539 in 5000 editions (10.78 %)'
+}
+{
+  trait: 'Corn Flower Blue',
+  weight: '6',
+  occurrence: '341 in 5000 editions (6.82 %)'
+}
+{
+  trait: 'Forest Green',
+  weight: '10',
+  occurrence: '549 in 5000 editions (10.98 %)'
+}
+{
+  trait: 'Indian Red',
+  weight: '10',
+  occurrence: '523 in 5000 editions (10.46 %)'
+}
+{
+  trait: 'Orange',
+  weight: '20',
+  occurrence: '951 in 5000 editions (19.02 %)'
+}
+{
+  trait: 'Outer Space',
+  weight: '1',
+  occurrence: '66 in 5000 editions (1.32 %)'
+}
+{
+  trait: 'Rebecca Purple',
+  weight: '7',
+  occurrence: '377 in 5000 editions (7.54 %)'
+}
+{
+  trait: 'White Background',
+  weight: '21',
+  occurrence: '915 in 5000 editions (18.30 %)'
+}
+
+Trait type: Body
+{
+  trait: 'Alien Gooska',
+  weight: '8',
+  occurrence: '493 in 5000 editions (9.86 %)'
+}
+{
+  trait: 'Alien Tier 2',
+  weight: '1',
+  occurrence: '56 in 5000 editions (1.12 %)'
+}
+{
+  trait: 'Brown Gooska',
+  weight: '45',
+  occurrence: '2081 in 5000 editions (41.62 %)'
+}
+{
+  trait: 'Gray Gooska',
+  weight: '36',
+  occurrence: '1764 in 5000 editions (35.28 %)'
+}
+{
+  trait: 'Zombie Gooska',
+  weight: '10',
+  occurrence: '606 in 5000 editions (12.12 %)'
+}
+
+Trait type: Attire
+{
+  trait: 'Biker Attire',
+  weight: '10',
+  occurrence: '555 in 5000 editions (11.10 %)'
+}
+{
+  trait: 'Blue Football',
+  weight: '10',
+  occurrence: '511 in 5000 editions (10.22 %)'
+}
+{
+  trait: 'Demon Wings',
+  weight: '15',
+  occurrence: '715 in 5000 editions (14.30 %)'
+}
+{
+  trait: 'Greek Attire',
+  weight: '15',
+  occurrence: '717 in 5000 editions (14.34 %)'
+}
+{
+  trait: 'Green Football',
+  weight: '15',
+  occurrence: '732 in 5000 editions (14.64 %)'
+}
+{
+  trait: 'Mummy Attire',
+  weight: '5',
+  occurrence: '284 in 5000 editions (5.68 %)'
+}
+{
+  trait: 'Overall',
+  weight: '19',
+  occurrence: '878 in 5000 editions (17.56 %)'
+}
+{
+  trait: 'Soldier Attire High Rank',
+  weight: '1',
+  occurrence: '71 in 5000 editions (1.42 %)'
+}
+{
+  trait: 'Soldier Attire',
+  weight: '10',
+  occurrence: '537 in 5000 editions (10.74 %)'
+}
+
+Trait type: Accessories
+{
+  trait: '3D Glasses',
+  weight: '8',
+  occurrence: '418 in 5000 editions (8.36 %)'
+}
+{
+  trait: 'Blue Necklace',
+  weight: '4',
+  occurrence: '255 in 5000 editions (5.10 %)'
+}
+{
+  trait: 'Crying',
+  weight: '1',
+  occurrence: '56 in 5000 editions (1.12 %)'
+}
+{
+  trait: 'Eye Patch',
+  weight: '10',
+  occurrence: '509 in 5000 editions (10.18 %)'
+}
+{
+  trait: 'Glasses',
+  weight: '10',
+  occurrence: '513 in 5000 editions (10.26 %)'
+}
+{
+  trait: 'Gold Chain',
+  weight: '10',
+  occurrence: '496 in 5000 editions (9.92 %)'
+}
+{
+  trait: 'Gold Clock',
+  weight: '5',
+  occurrence: '288 in 5000 editions (5.76 %)'
+}
+{
+  trait: 'Green Necklace',
+  weight: '10',
+  occurrence: '463 in 5000 editions (9.26 %)'
+}
+{
+  trait: 'Green Scarf',
+  weight: '5',
+  occurrence: '270 in 5000 editions (5.40 %)'
+}
+{
+  trait: 'Onyx Necklace',
+  weight: '2',
+  occurrence: '105 in 5000 editions (2.10 %)'
+}
+{
+  trait: 'Red Scarf',
+  weight: '5',
+  occurrence: '264 in 5000 editions (5.28 %)'
+}
+{
+  trait: 'Sunglasses',
+  weight: '15',
+  occurrence: '680 in 5000 editions (13.60 %)'
+}
+{
+  trait: 'Yellow Necklace',
+  weight: '15',
+  occurrence: '683 in 5000 editions (13.66 %)'
+}
+
+Trait type: Headgear
+{
+  trait: 'Blue Beret',
+  weight: '8',
+  occurrence: '423 in 5000 editions (8.46 %)'
+}
+{
+  trait: "Chef's Hat",
+  weight: '10',
+  occurrence: '506 in 5000 editions (10.12 %)'
+}
+{
+  trait: 'Crown',
+  weight: '1',
+  occurrence: '58 in 5000 editions (1.16 %)'
+}
+{
+  trait: 'Fedora',
+  weight: '10',
+  occurrence: '540 in 5000 editions (10.80 %)'
+}
+{
+  trait: 'Green Beret',
+  weight: '1',
+  occurrence: '60 in 5000 editions (1.20 %)'
+}
+{
+  trait: 'Green Cap',
+  weight: '10',
+  occurrence: '491 in 5000 editions (9.82 %)'
+}
+{
+  trait: 'Halo',
+  weight: '10',
+  occurrence: '514 in 5000 editions (10.28 %)'
+}
+{
+  trait: 'None',
+  weight: '25',
+  occurrence: '1099 in 5000 editions (21.98 %)'
+}
+{
+  trait: 'Red Beret',
+  weight: '5',
+  occurrence: '290 in 5000 editions (5.80 %)'
+}
+{
+  trait: 'Red Cap',
+  weight: '10',
+  occurrence: '511 in 5000 editions (10.22 %)'
+}
+{
+  trait: 'Soldier Hat',
+  weight: '6',
+  occurrence: '303 in 5000 editions (6.06 %)'
+}
+{
+  trait: 'Yellow Beret',
+  weight: '4',
+  occurrence: '205 in 5000 editions (4.10 %)'
+}
+
+Trait type: Beak
+{
+  trait: 'Gooska Beak',
+  weight: '95',
+  occurrence: '4723 in 5000 editions (94.46 %)'
+}
+{
+  trait: 'Zombie Beak',
+  weight: '5',
+  occurrence: '277 in 5000 editions (5.54 %)'
+}
+
